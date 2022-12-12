@@ -1,0 +1,52 @@
+Doctype
+
+ A Doctype is the core building block of any application 
+ based on farppe framework. It describes the Model and the 
+ View of your data. It contains what fields are stored for  
+ your data, and how they behave with each other. It 
+ contains information about how your data is named.
+
+Is Submittable 
+
+ A Submittable doctype can have 3 states:
+ 
+ Draft,
+ Submitted, 
+ Cancelled. 
+
+ A document in the Draft state can be changed like any 
+ document, however once it is in Submitted state, the 
+ value of any field in the document cannot be changed. A 
+ Submitted document can be Cancelled, which makes the 
+ document invalid.
+
+Is Child 
+ 
+ Child Tables are shown as a Grid in other DocTypes
+ DocTypes that can have a single value for each field. 
+ However, There might be a need for storing multiple 
+ records against one record, also known as many-to-one 
+ relationships. A Child DocType is doctype which can only 
+ be linked to a parent DocType.
+
+Is Single
+
+ Single type DocTypes have no table associated and 
+ there is only one Document for it.
+
+ The data in Single DocType is stored in tabSingles 
+ (doctype, field, value)
+
+Naming 
+
+ Naming rule
+ we can set naming how the name looks in menubar,,
+ without it puts random name for that 
+ the auto name field value should be unique.
+
+Form Setting
+
+Image Field
+ 
+ Image Field is shows the image which been upload from the form 
+ we should provide the image field name to show.

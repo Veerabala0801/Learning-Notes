@@ -1,0 +1,35 @@
+Constraints
+ 
+ unique
+ no copy 
+ set only once
+
+unique 
+is unique no dupilicate can be created
+
+no copy 
+when you duplicate a doctype this no copy field checked will not 
+clone
+
+set only once
+It allows you write the data only once. 
+If checked you won’t be able to update the data afterwards.  
+
+Permissions
+
+ read only : read only make the field only read can't be write in it
+ ignore user permission : which ignores user permission for that 
+                          field
+
+Visibility 
+
+ Hiddien : it makes the filed hidden
+ Bold : 
+ Allow in Quick Entry : it shows in the quick entry form
+ print hide : hide the field from the printable docment
+ report hide : hide the field from the reportable document
+ translatable : 
+
+List / Search settings
+
+ 
