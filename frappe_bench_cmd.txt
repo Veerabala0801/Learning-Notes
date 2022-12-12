@@ -1,0 +1,45 @@
+after installing the requirements for frappe framework install bench
+.
+.
+-->pip3 install frappe-bench 
+cd into frappe-bench
+.
+initiate frappe bench using 
+-->bench init frappe-bench
+the above cmd will create a frappe-bench folder then cd into the folder and 
+
+-->bench new-app APP NAME
+this create a new app in the apps folder
+
+-->bench get-app APP NAME link
+this will get the app from the given link location
+
+-->bench new-site SITENAME.COM  
+its ask for db pswd
+which you created in the requirements installization 
+
+-->bench drop-site {site}
+to remove the site from the localhost
+
+bench reinstall {site}
+bench --site {site} list-apps
+
+-->bench --site {site} backup
+https://frappeframework.com/docs/v13/user/en/bench/reference/backup#examples
+
+
+-->bench --site SITENAME install-app APPNAME
+this cmd will register the app inside the site
+-->bench --site {site} uninstall-app {app}
+
+-->bench start 
+its start the frappe framework
+
+-->bench update
+Update all apps and sites from your bench directory.
+This operation performs backups, sets up requirements, build asstes,
+runs migrations and restarts your process manager for you.
+
+bench
+Usage: bench [OPTIONS] COMMAND [ARGS]...
+
